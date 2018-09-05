@@ -687,12 +687,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-05T03:17:39.357Z",
+      "buildTime": "2018-09-05T05:16:48.965Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2a9f5248bda581234287e8759275ddba",
+        "contentDigest": "496a36febfe5964530ca282d2698dd2d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -783,13 +783,13 @@
           {
             "slug": "programming",
             "name": "Programming",
-            "postCount": 73102,
+            "postCount": 73101,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 47894,
-              "postCount": 73102,
+              "postCount": 73101,
               "coverImage": {
                 "id": "0*omyr-SRrpmo80-28",
                 "originalWidth": 5184,
@@ -819,13 +819,13 @@
           {
             "slug": "writing",
             "name": "Writing",
-            "postCount": 156902,
+            "postCount": 156900,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1053226,
-              "postCount": 156902,
+              "followerCount": 1053224,
+              "postCount": 156900,
               "coverImage": {
                 "id": "1*AwaoHDZEX9wjHc7o9Ienzg.jpeg"
               }
@@ -835,13 +835,13 @@
           {
             "slug": "tech",
             "name": "Tech",
-            "postCount": 138486,
+            "postCount": 138484,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1067198,
-              "postCount": 138486,
+              "followerCount": 1067197,
+              "postCount": 138484,
               "coverImage": {
                 "id": "0*Nv1sgovc6sNy89N_",
                 "originalWidth": 4200,
@@ -854,13 +854,13 @@
           {
             "slug": "life-lessons",
             "name": "Life Lessons",
-            "postCount": 238496,
+            "postCount": 238493,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1075142,
-              "postCount": 238496,
+              "followerCount": 1075140,
+              "postCount": 238493,
               "coverImage": {
                 "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
               }
@@ -1117,7 +1117,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "e1e15b402eeca2382f589ee62007e1ff",
+        "contentDigest": "6db43a906561d4a653ef583fdd29023b",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -1229,13 +1229,13 @@
           {
             "slug": "web-development",
             "name": "Web Development",
-            "postCount": 81510,
+            "postCount": 81509,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 45052,
-              "postCount": 81510,
+              "postCount": 81509,
               "coverImage": {
                 "id": "1*XPC09t7aAvFHU7swd2bTfg.png",
                 "originalWidth": 450,
@@ -1248,13 +1248,13 @@
           {
             "slug": "tech",
             "name": "Tech",
-            "postCount": 138486,
+            "postCount": 138484,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1067198,
-              "postCount": 138486,
+              "followerCount": 1067197,
+              "postCount": 138484,
               "coverImage": {
                 "id": "0*Nv1sgovc6sNy89N_",
                 "originalWidth": 4200,
@@ -1500,7 +1500,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "5fad7146f56e540391286dbbe96b9be4",
+        "contentDigest": "8c81c99499e6c903773daec4ef37580c",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -1575,13 +1575,13 @@
           {
             "slug": "productivity",
             "name": "Productivity",
-            "postCount": 91081,
+            "postCount": 91080,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1005845,
-              "postCount": 91081,
+              "followerCount": 1005844,
+              "postCount": 91080,
               "coverImage": {
                 "id": "1*23EURixTdGzquD9--plvmw.jpeg"
               }
@@ -1609,13 +1609,13 @@
           {
             "slug": "programming",
             "name": "Programming",
-            "postCount": 73102,
+            "postCount": 73101,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 47894,
-              "postCount": 73102,
+              "postCount": 73101,
               "coverImage": {
                 "id": "0*omyr-SRrpmo80-28",
                 "originalWidth": 5184,
@@ -1627,13 +1627,13 @@
           {
             "slug": "web-development",
             "name": "Web Development",
-            "postCount": 81510,
+            "postCount": 81509,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 45052,
-              "postCount": 81510,
+              "postCount": 81509,
               "coverImage": {
                 "id": "1*XPC09t7aAvFHU7swd2bTfg.png",
                 "originalWidth": 450,
@@ -1841,7 +1841,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "d8fbca5e0035263b216423fccce04860",
+        "contentDigest": "62455c554600d391f7ae85dee340e61c",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -1935,13 +1935,13 @@
           {
             "slug": "testing",
             "name": "Testing",
-            "postCount": 9583,
+            "postCount": 9674,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 1079,
-              "postCount": 9583,
+              "postCount": 9674,
               "coverImage": {
                 "id": "1*yt0amuDg5VL3QtomaZHvNA.png",
                 "originalWidth": 662,
@@ -1953,13 +1953,13 @@
           {
             "slug": "tech",
             "name": "Tech",
-            "postCount": 138486,
+            "postCount": 138484,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1067198,
-              "postCount": 138486,
+              "followerCount": 1067197,
+              "postCount": 138484,
               "coverImage": {
                 "id": "0*Nv1sgovc6sNy89N_",
                 "originalWidth": 4200,
@@ -1972,13 +1972,13 @@
           {
             "slug": "productivity",
             "name": "Productivity",
-            "postCount": 91081,
+            "postCount": 91080,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1005845,
-              "postCount": 91081,
+              "followerCount": 1005844,
+              "postCount": 91080,
               "coverImage": {
                 "id": "1*23EURixTdGzquD9--plvmw.jpeg"
               }
@@ -2176,7 +2176,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "51e9b436f5ae252d754c971d4d49941f",
+        "contentDigest": "0bdd960f5bee6c81ba704d3f245aa2c3",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -2267,13 +2267,13 @@
           {
             "slug": "web-development",
             "name": "Web Development",
-            "postCount": 81510,
+            "postCount": 81509,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 45052,
-              "postCount": 81510,
+              "postCount": 81509,
               "coverImage": {
                 "id": "1*XPC09t7aAvFHU7swd2bTfg.png",
                 "originalWidth": 450,
@@ -2555,7 +2555,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "5d538f64606160a7452f10b9e07b36e0",
+        "contentDigest": "b5805fb61977db41898afb85f30850cc",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -3426,13 +3426,13 @@
           {
             "slug": "mobile-app-development",
             "name": "Mobile App Development",
-            "postCount": 28003,
+            "postCount": 28318,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
               "followerCount": 10152,
-              "postCount": 28003,
+              "postCount": 28318,
               "coverImage": {
                 "id": "1*iMPfw0qHQdgGzVdtAdJooQ.png",
                 "originalWidth": 3840,
@@ -3602,7 +3602,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "319da95174b0fc3800c2e3fbecc40592",
+        "contentDigest": "021b88a759d489bead6d910dc0473f92",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -3690,13 +3690,13 @@
           {
             "slug": "technology",
             "name": "Technology",
-            "postCount": 152998,
+            "postCount": 152997,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1824153,
-              "postCount": 152998,
+              "followerCount": 1824151,
+              "postCount": 152997,
               "coverImage": {
                 "id": "1*yH2cmH1uhoFpR7HIseOAsw.jpeg"
               }
@@ -3706,13 +3706,13 @@
           {
             "slug": "productivity",
             "name": "Productivity",
-            "postCount": 91081,
+            "postCount": 91080,
             "virtuals": {
               "isFollowing": false
             },
             "metadata": {
-              "followerCount": 1005845,
-              "postCount": 91081,
+              "followerCount": 1005844,
+              "postCount": 91080,
               "coverImage": {
                 "id": "1*23EURixTdGzquD9--plvmw.jpeg"
               }
@@ -3914,7 +3914,7 @@
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "38c4df1e63af8b1aa0c6a88dc3e12fbe",
+        "contentDigest": "08cfa01a109f0285c3531ec74e67435e",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -3944,7 +3944,7 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 470645,
+        "followerCount": 470682,
         "activeAt": "2018-09-04"
       },
       "virtuals": {
@@ -4235,7 +4235,7 @@
       "children": [],
       "internal": {
         "type": "MediumCollection",
-        "contentDigest": "68344793aeb39f4584eb2e3d375d432e",
+        "contentDigest": "bf0ee90d31f08938d048a0f6a8997802",
         "owner": "gatsby-source-medium"
       }
     },
@@ -4264,7 +4264,7 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 367406,
+        "followerCount": 367451,
         "activeAt": "2018-09-04"
       },
       "virtuals": {
@@ -17798,7 +17798,7 @@
       "children": [],
       "internal": {
         "type": "MediumCollection",
-        "contentDigest": "64e7b9e6d7af7bde342b6ae2cb0f44c8",
+        "contentDigest": "71b2d325a77aefe44cb34b100fa7f78c",
         "owner": "gatsby-source-medium"
       }
     },
@@ -18114,7 +18114,7 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-f7a": "618/path---blog-f-7-a-05d-21g6YPLDM6UiFSxprLTPy6go"
+    "blog-f7a": "585/path---blog-f-7-a-05d-bqJHDzJzXFH9Xv2AokXuW6IzXk"
   },
   "components": {
     "/Users/ianwilson/ui-workspace/ianwilson.io/.cache/dev-404-page.js": {
@@ -18130,7 +18130,7 @@
       "componentPath": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/index.js"
     },
     "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/blog.js": {
-      "query": "query MediumQuery {\n  allMediumPost {\n    edges {\n      node {\n        id\n        title\n        uniqueSlug\n        previewContent {\n          subtitle\n          bodyModel {\n            paragraphs {\n              type\n              metadata {\n                id\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  allMediumCollection {\n    edges {\n      node {\n        domain\n        name\n      }\n    }\n  }\n}\n",
+      "query": "query MediumQuery {\n  allMediumPost {\n    edges {\n      node {\n        id\n        title\n        uniqueSlug\n        virtuals {\n          tags {\n            name\n          }\n        }\n        previewContent {\n          subtitle\n          bodyModel {\n            paragraphs {\n              type\n              metadata {\n                id\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  allMediumCollection {\n    edges {\n      node {\n        domain\n        name\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/blog.js"
     }
   },
