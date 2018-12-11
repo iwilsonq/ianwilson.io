@@ -368,7 +368,7 @@
       "resolve": "/Users/ianwilson/ui-workspace/ianwilson.io/node_modules/gatsby-plugin-offline",
       "id": "Plugin gatsby-plugin-offline",
       "name": "gatsby-plugin-offline",
-      "version": "2.0.0-rc.2",
+      "version": "2.0.0-rc.9",
       "pluginOptions": {
         "plugins": []
       },
@@ -379,14 +379,14 @@
       "browserAPIs": [
         "registerServiceWorker",
         "onPrefetchPathname",
-        "onServiceWorkerInstalled"
+        "onServiceWorkerActive"
       ],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/ianwilson/ui-workspace/ianwilson.io/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.0-rc.2",
+        "version": "2.0.0-rc.9",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -444,7 +444,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "78eb7be5f65588e8906e038400758438",
+        "contentDigest": "1c8b7447d0bff143c7606695f86261f4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -588,7 +588,7 @@
       "resolve": "/Users/ianwilson/ui-workspace/ianwilson.io/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.0-rc.1",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages",
@@ -603,7 +603,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.0-rc.1",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -637,7 +637,11 @@
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
           },
           {
             "name": "parse-filepath",
@@ -658,6 +662,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -674,7 +682,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cc4cec21a66ee66c67f341a2131ce3b2",
+        "contentDigest": "8fd5a32ba3393994b9ad9692fc922fa8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -687,12 +695,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-05T05:16:48.965Z",
+      "buildTime": "2018-12-11T09:29:59.853Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "496a36febfe5964530ca282d2698dd2d",
+        "contentDigest": "0d5fddc1a4178866929ebd1765283c7f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -702,7 +710,6 @@
       "name": "Ian Wilson",
       "username": "iwilsonq",
       "createdAt": "2017-07-14",
-      "lastPostCreatedAt": "2018-08-31",
       "imageId": "0*ZdQhx8CmSKxefU2i.jpg",
       "backgroundImageId": "",
       "bio": "Software developer, runner, and surrealist. You can view my site at https://ianwilson.io — Be sure follow me on twitter @iwilsonq",
@@ -710,17 +717,18 @@
       "facebookAccountId": "",
       "allowNotes": 1,
       "mediumMemberAt": 0,
-      "isPartnerProgramEnrolled": false,
+      "isNsfw": false,
       "type": "User",
       "id": "2467058898a1",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumUser",
-        "contentDigest": "a1a007a091135735b514d670f6e154c9",
+        "contentDigest": "79ecb43197d169932b60d4a36edbe62e",
         "owner": "gatsby-source-medium"
       },
       "posts___NODE": [
+        "65be2e8f34c8",
         "fe79c36e2211",
         "fc7fcabe8ebd",
         "bca86435c878",
@@ -731,6 +739,387 @@
         "a00b8f60a4c6",
         "7ac9db3776df"
       ]
+    },
+    "65be2e8f34c8": {
+      "id": "65be2e8f34c8",
+      "versionId": "27b696f1b884",
+      "creatorId": "2467058898a1",
+      "homeCollectionId": "2541ed02c698",
+      "title": "ReasonML with GraphQL, the Future of Type-Safe Web Applications",
+      "detectedLanguage": "en",
+      "latestVersion": "27b696f1b884",
+      "latestPublishedVersion": "27b696f1b884",
+      "hasUnpublishedEdits": false,
+      "latestRev": 656,
+      "createdAt": "2018-11-26",
+      "updatedAt": "2018-11-30",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-11-28",
+      "latestPublishedAt": "2018-11-30",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "ReasonML, also known as JavaScript-flavored OCaml, offers nearly impenetrable type safety for developing user interfaces. By adopting a…",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "statusForCollection": "APPROVED",
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*MjDqJXK6XeZ-95nT3TzM2A@2x.png",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 1134,
+          "originalHeight": 432,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 2580,
+        "imageCount": 3,
+        "readingTime": 10.285849056603775,
+        "subtitle": "ReasonML, also known as JavaScript-flavored OCaml, offers nearly impenetrable type safety for developing user interfaces. By adopting a…",
+        "publishedInCount": 1,
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 38,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "react",
+            "name": "React",
+            "postCount": 21733,
+            "metadata": {
+              "postCount": 21733,
+              "coverImage": {
+                "id": "1*HWk-SMDhefnjVZ0uG6rqJQ.png",
+                "originalWidth": 2172,
+                "originalHeight": 1260,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "reasonml",
+            "name": "Reasonml",
+            "postCount": 182,
+            "metadata": {
+              "postCount": 182,
+              "coverImage": {
+                "id": "1*MjDqJXK6XeZ-95nT3TzM2A@2x.png",
+                "originalWidth": 1134,
+                "originalHeight": 432,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "graphql",
+            "name": "GraphQL",
+            "postCount": 2712,
+            "metadata": {
+              "postCount": 2712,
+              "coverImage": {
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "javascript",
+            "name": "JavaScript",
+            "postCount": 80785,
+            "metadata": {
+              "postCount": 80785,
+              "coverImage": {
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "ocaml",
+            "name": "Ocaml",
+            "postCount": 135,
+            "metadata": {
+              "postCount": 135,
+              "coverImage": {
+                "id": "1*MjDqJXK6XeZ-95nT3TzM2A@2x.png",
+                "originalWidth": 1134,
+                "originalHeight": 432,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 1,
+        "links": {
+          "entries": [
+            {
+              "url": "bucklescript.github.io",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "reasonml.github.io",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "https://reasonml.github.io",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://reasonml.github.io/docs/en/variant#design-decisions",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://reasonml.github.io/docs/en/variant",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://reasonml.github.io/docs/en/pattern-matching",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://bucklescript.github.io/docs/en/generate-converters-accessors",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.npmjs.com/package/graphql_ppx",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://jaredforsyth.com",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/iwilsonq/video-game-api",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://medium.freecodecamp.org/psst-heres-why-reasonreact-is-the-best-way-to-write-react-5088d434d035?source=linkShare-2467058898a1-1543182271",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "medium://p/5088d434d035"
+                },
+                {
+                  "type": 3,
+                  "url": "medium://p/5088d434d035"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://medium.freecodecamp.org/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "medium://p/fc7fcabe8ebd"
+                },
+                {
+                  "type": 3,
+                  "url": "medium://p/fc7fcabe8ebd"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://twitter.com/iwilsonq",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "twitter://user?screen_name=iwilsonq"
+                },
+                {
+                  "type": 3,
+                  "url": "twitter://user?screen_name=iwilsonq"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/iwilsonq/reason-graphql-tutorial",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=OT7xOpPCGds",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "vnd.youtube://www.youtube.com/watch?v=OT7xOpPCGds&feature=applinks"
+                },
+                {
+                  "type": 3,
+                  "url": "vnd.youtube://www.youtube.com/watch?v=OT7xOpPCGds&feature=applinks"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://video-game-api-pvibqsoxza.now.sh/graphql",
+              "alts": [],
+              "httpStatus": 400
+            },
+            {
+              "url": "https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://medium.com/@iwilsonq",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "medium://@iwilsonq"
+                },
+                {
+                  "type": 3,
+                  "url": "medium://@iwilsonq"
+                }
+              ],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-11-30"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 422,
+        "sectionCount": 1,
+        "readingList": 0,
+        "topics": [
+          {
+            "topicId": "63c6f1f93ee",
+            "slug": "javascript",
+            "createdAt": "2017-05-05",
+            "deletedAt": 0,
+            "image": {
+              "id": "1*5UyyDJ1ESD11yQNd1UVAaQ@2x.jpeg",
+              "originalWidth": 5472,
+              "originalHeight": 3648
+            },
+            "name": "Javascript",
+            "description": "An ode to code.",
+            "briefCatalogId": "e6f279670b2b",
+            "relatedTopics": [],
+            "visibility": 1,
+            "relatedTags": [],
+            "type": "Topic"
+          }
+        ]
+      },
+      "coverless": true,
+      "slug": "reasonml-with-graphql-the-future-of-type-safe-web-applications",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": false,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "reasonml-with-graphql-the-future-of-type-safe-web-applications-65be2e8f34c8",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "previewImage",
+              "type": 4,
+              "text": "",
+              "layout": 10,
+              "metadata": {
+                "id": "1*MjDqJXK6XeZ-95nT3TzM2A@2x.png",
+                "originalWidth": 1134,
+                "originalHeight": 432,
+                "isFeatured": true
+              }
+            },
+            {
+              "name": "ca9a",
+              "type": 3,
+              "text": "ReasonML with GraphQL, the Future of Type-Safe Web Applications",
+              "markups": [],
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "ReasonML, also known as JavaScript-flavored OCaml, offers nearly impenetrable type safety for developing user interfaces. By adopting a…"
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "2541ed02c698",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 3,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "parent": "__SOURCE__",
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "3cfadbe992bacef7b66e39abec28b806",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "2467058898a1"
     },
     "fe79c36e2211": {
       "id": "fe79c36e2211",
@@ -777,23 +1166,20 @@
         "publishedInCount": 1,
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 122,
+        "recommends": 134,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "programming",
             "name": "Programming",
-            "postCount": 73101,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 82270,
             "metadata": {
-              "followerCount": 47894,
-              "postCount": 73101,
+              "postCount": 82270,
               "coverImage": {
-                "id": "0*omyr-SRrpmo80-28",
-                "originalWidth": 5184,
-                "originalHeight": 3456
+                "id": "1*qLw7bQ7iKrXWLtL2p-lzdw.png",
+                "originalWidth": 1920,
+                "originalHeight": 1080,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -801,17 +1187,14 @@
           {
             "slug": "job-hunting",
             "name": "Job Hunting",
-            "postCount": 10243,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 11198,
             "metadata": {
-              "followerCount": 969,
-              "postCount": 10243,
+              "postCount": 11198,
               "coverImage": {
-                "id": "1*9AVGkm_XS5lrgJHnM3iRCg.png",
-                "originalWidth": 957,
-                "originalHeight": 544
+                "id": "1*QCw6LwUVKItIg7HY0LKquw.png",
+                "originalWidth": 1068,
+                "originalHeight": 410,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -819,13 +1202,9 @@
           {
             "slug": "writing",
             "name": "Writing",
-            "postCount": 156900,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 170488,
             "metadata": {
-              "followerCount": 1053224,
-              "postCount": 156900,
+              "postCount": 170488,
               "coverImage": {
                 "id": "1*AwaoHDZEX9wjHc7o9Ienzg.jpeg"
               }
@@ -835,17 +1214,13 @@
           {
             "slug": "tech",
             "name": "Tech",
-            "postCount": 138484,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 142395,
             "metadata": {
-              "followerCount": 1067197,
-              "postCount": 138484,
+              "postCount": 142395,
               "coverImage": {
-                "id": "0*Nv1sgovc6sNy89N_",
-                "originalWidth": 4200,
-                "originalHeight": 2800,
+                "id": "1*TsagBaMW83pINTcl769j1w.png",
+                "originalWidth": 2258,
+                "originalHeight": 1510,
                 "isFeatured": true
               }
             },
@@ -854,13 +1229,9 @@
           {
             "slug": "life-lessons",
             "name": "Life Lessons",
-            "postCount": 238493,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 259800,
             "metadata": {
-              "followerCount": 1075140,
-              "postCount": 238493,
+              "postCount": 259800,
               "coverImage": {
                 "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
               }
@@ -1008,7 +1379,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 1328,
+        "totalClapCount": 1333,
         "sectionCount": 1,
         "readingList": 0,
         "topics": []
@@ -1087,8 +1458,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -1104,20 +1473,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 4,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "6db43a906561d4a653ef583fdd29023b",
+        "contentDigest": "144ed7da7d20cdf44988fec0f71d84a3",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -1167,23 +1535,19 @@
         "publishedInCount": 1,
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 45,
+        "recommends": 53,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "javascript",
             "name": "JavaScript",
-            "postCount": 71025,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 80785,
             "metadata": {
-              "followerCount": 40986,
-              "postCount": 71025,
+              "postCount": 80785,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
                 "isFeatured": true
               }
             },
@@ -1192,17 +1556,13 @@
           {
             "slug": "nodejs",
             "name": "Nodejs",
-            "postCount": 13759,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 15541,
             "metadata": {
-              "followerCount": 12611,
-              "postCount": 13759,
+              "postCount": 15541,
               "coverImage": {
-                "id": "1*S7VjOUzpgIORXUIOa17UKg.jpeg",
-                "originalWidth": 1920,
-                "originalHeight": 1280,
+                "id": "1*fwvt1sbeHiz7HRMz7FIOPQ.jpeg",
+                "originalWidth": 5598,
+                "originalHeight": 3657,
                 "isFeatured": true
               }
             },
@@ -1211,17 +1571,14 @@
           {
             "slug": "graphql",
             "name": "GraphQL",
-            "postCount": 2260,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 2712,
             "metadata": {
-              "followerCount": 2021,
-              "postCount": 2260,
+              "postCount": 2712,
               "coverImage": {
-                "id": "1*49DDRZhUWvVnH-QNHuSUSw.png",
-                "originalWidth": 1000,
-                "originalHeight": 350
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -1229,17 +1586,13 @@
           {
             "slug": "web-development",
             "name": "Web Development",
-            "postCount": 81509,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 83928,
             "metadata": {
-              "followerCount": 45052,
-              "postCount": 81509,
+              "postCount": 83928,
               "coverImage": {
-                "id": "1*XPC09t7aAvFHU7swd2bTfg.png",
-                "originalWidth": 450,
-                "originalHeight": 400,
+                "id": "1*fwvt1sbeHiz7HRMz7FIOPQ.jpeg",
+                "originalWidth": 5598,
+                "originalHeight": 3657,
                 "isFeatured": true
               }
             },
@@ -1248,17 +1601,13 @@
           {
             "slug": "tech",
             "name": "Tech",
-            "postCount": 138484,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 142395,
             "metadata": {
-              "followerCount": 1067197,
-              "postCount": 138484,
+              "postCount": 142395,
               "coverImage": {
-                "id": "0*Nv1sgovc6sNy89N_",
-                "originalWidth": 4200,
-                "originalHeight": 2800,
+                "id": "1*TsagBaMW83pINTcl769j1w.png",
+                "originalWidth": 2258,
+                "originalHeight": 1510,
                 "isFeatured": true
               }
             },
@@ -1391,7 +1740,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 336,
+        "totalClapCount": 346,
         "sectionCount": 1,
         "readingList": 0,
         "topics": []
@@ -1470,8 +1819,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -1487,20 +1834,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "8c81c99499e6c903773daec4ef37580c",
+        "contentDigest": "6471cc0134566a7f6359cf958f101a66",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -1556,18 +1902,13 @@
           {
             "slug": "golang",
             "name": "Golang",
-            "postCount": 4466,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 5148,
             "metadata": {
-              "followerCount": 4299,
-              "postCount": 4466,
+              "postCount": 5148,
               "coverImage": {
-                "id": "1*S7VjOUzpgIORXUIOa17UKg.jpeg",
-                "originalWidth": 1920,
-                "originalHeight": 1280,
-                "isFeatured": true
+                "id": "1*vHUiXvBE0p0fLRwFHZuAYw.gif",
+                "originalWidth": 500,
+                "originalHeight": 500
               }
             },
             "type": "Tag"
@@ -1575,13 +1916,9 @@
           {
             "slug": "productivity",
             "name": "Productivity",
-            "postCount": 91080,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 98627,
             "metadata": {
-              "followerCount": 1005844,
-              "postCount": 91080,
+              "postCount": 98627,
               "coverImage": {
                 "id": "1*23EURixTdGzquD9--plvmw.jpeg"
               }
@@ -1591,17 +1928,14 @@
           {
             "slug": "software-development",
             "name": "Software Development",
-            "postCount": 45693,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 51826,
             "metadata": {
-              "followerCount": 24085,
-              "postCount": 45693,
+              "postCount": 51826,
               "coverImage": {
-                "id": "0*omyr-SRrpmo80-28",
-                "originalWidth": 5184,
-                "originalHeight": 3456
+                "id": "1*wyxuq21keffc5b0d_lMkUw.jpeg",
+                "originalWidth": 5472,
+                "originalHeight": 3648,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -1609,17 +1943,14 @@
           {
             "slug": "programming",
             "name": "Programming",
-            "postCount": 73101,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 82270,
             "metadata": {
-              "followerCount": 47894,
-              "postCount": 73101,
+              "postCount": 82270,
               "coverImage": {
-                "id": "0*omyr-SRrpmo80-28",
-                "originalWidth": 5184,
-                "originalHeight": 3456
+                "id": "1*qLw7bQ7iKrXWLtL2p-lzdw.png",
+                "originalWidth": 1920,
+                "originalHeight": 1080,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -1627,17 +1958,13 @@
           {
             "slug": "web-development",
             "name": "Web Development",
-            "postCount": 81509,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 83928,
             "metadata": {
-              "followerCount": 45052,
-              "postCount": 81509,
+              "postCount": 83928,
               "coverImage": {
-                "id": "1*XPC09t7aAvFHU7swd2bTfg.png",
-                "originalWidth": 450,
-                "originalHeight": 400,
+                "id": "1*fwvt1sbeHiz7HRMz7FIOPQ.jpeg",
+                "originalWidth": 5598,
+                "originalHeight": 3657,
                 "isFeatured": true
               }
             },
@@ -1811,8 +2138,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -1828,20 +2153,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "62455c554600d391f7ae85dee340e61c",
+        "contentDigest": "c05982b172359f90e8af88ba7ee0e8c8",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -1855,10 +2179,10 @@
       "detectedLanguage": "en",
       "latestVersion": "72cfc618cd77",
       "latestPublishedVersion": "72cfc618cd77",
-      "hasUnpublishedEdits": false,
-      "latestRev": 630,
+      "hasUnpublishedEdits": true,
+      "latestRev": 649,
       "createdAt": "2018-04-30",
-      "updatedAt": "2018-06-21",
+      "updatedAt": "2018-09-22",
       "acceptedAt": 0,
       "firstPublishedAt": "2018-05-07",
       "latestPublishedAt": "2018-05-07",
@@ -1891,23 +2215,19 @@
         "publishedInCount": 1,
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 111,
+        "recommends": 141,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "javascript",
             "name": "JavaScript",
-            "postCount": 71025,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 80785,
             "metadata": {
-              "followerCount": 40986,
-              "postCount": 71025,
+              "postCount": 80785,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
                 "isFeatured": true
               }
             },
@@ -1916,17 +2236,13 @@
           {
             "slug": "react",
             "name": "React",
-            "postCount": 18803,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 21733,
             "metadata": {
-              "followerCount": 18019,
-              "postCount": 18803,
+              "postCount": 21733,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*HWk-SMDhefnjVZ0uG6rqJQ.png",
+                "originalWidth": 2172,
+                "originalHeight": 1260,
                 "isFeatured": true
               }
             },
@@ -1935,17 +2251,14 @@
           {
             "slug": "testing",
             "name": "Testing",
-            "postCount": 9674,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 10654,
             "metadata": {
-              "followerCount": 1079,
-              "postCount": 9674,
+              "postCount": 10654,
               "coverImage": {
-                "id": "1*yt0amuDg5VL3QtomaZHvNA.png",
-                "originalWidth": 662,
-                "originalHeight": 215
+                "id": "0*zkGsjmYGeHO9vYs6.jpeg",
+                "originalWidth": 1200,
+                "originalHeight": 674,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -1953,17 +2266,13 @@
           {
             "slug": "tech",
             "name": "Tech",
-            "postCount": 138484,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 142395,
             "metadata": {
-              "followerCount": 1067197,
-              "postCount": 138484,
+              "postCount": 142395,
               "coverImage": {
-                "id": "0*Nv1sgovc6sNy89N_",
-                "originalWidth": 4200,
-                "originalHeight": 2800,
+                "id": "1*TsagBaMW83pINTcl769j1w.png",
+                "originalWidth": 2258,
+                "originalHeight": 1510,
                 "isFeatured": true
               }
             },
@@ -1972,13 +2281,9 @@
           {
             "slug": "productivity",
             "name": "Productivity",
-            "postCount": 91080,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 98627,
             "metadata": {
-              "followerCount": 1005844,
-              "postCount": 91080,
+              "postCount": 98627,
               "coverImage": {
                 "id": "1*23EURixTdGzquD9--plvmw.jpeg"
               }
@@ -1987,7 +2292,7 @@
           }
         ],
         "socialRecommendsCount": 0,
-        "responsesCreatedCount": 4,
+        "responsesCreatedCount": 5,
         "links": {
           "entries": [
             {
@@ -2080,7 +2385,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 669,
+        "totalClapCount": 790,
         "sectionCount": 2,
         "readingList": 0,
         "topics": []
@@ -2146,8 +2451,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -2163,20 +2466,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "0bdd960f5bee6c81ba704d3f245aa2c3",
+        "contentDigest": "9e3f952282f6b9b852ada8c153590726",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -2230,17 +2532,14 @@
           {
             "slug": "graphql",
             "name": "GraphQL",
-            "postCount": 2260,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 2712,
             "metadata": {
-              "followerCount": 2021,
-              "postCount": 2260,
+              "postCount": 2712,
               "coverImage": {
-                "id": "1*49DDRZhUWvVnH-QNHuSUSw.png",
-                "originalWidth": 1000,
-                "originalHeight": 350
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -2248,17 +2547,13 @@
           {
             "slug": "javascript",
             "name": "JavaScript",
-            "postCount": 71025,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 80785,
             "metadata": {
-              "followerCount": 40986,
-              "postCount": 71025,
+              "postCount": 80785,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
                 "isFeatured": true
               }
             },
@@ -2267,17 +2562,13 @@
           {
             "slug": "web-development",
             "name": "Web Development",
-            "postCount": 81509,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 83928,
             "metadata": {
-              "followerCount": 45052,
-              "postCount": 81509,
+              "postCount": 83928,
               "coverImage": {
-                "id": "1*XPC09t7aAvFHU7swd2bTfg.png",
-                "originalWidth": 450,
-                "originalHeight": 400,
+                "id": "1*fwvt1sbeHiz7HRMz7FIOPQ.jpeg",
+                "originalWidth": 5598,
+                "originalHeight": 3657,
                 "isFeatured": true
               }
             },
@@ -2286,17 +2577,14 @@
           {
             "slug": "api",
             "name": "API",
-            "postCount": 10627,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 12050,
             "metadata": {
-              "followerCount": 2952,
-              "postCount": 10627,
+              "postCount": 12050,
               "coverImage": {
-                "id": "1*7ifQIqoJ2o8UH4YCcZcWcQ.png",
-                "originalWidth": 940,
-                "originalHeight": 788
+                "id": "1*vhPNg3Vh58W-mTcDsrbKAg.jpeg",
+                "originalWidth": 4901,
+                "originalHeight": 3267,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -2304,17 +2592,16 @@
           {
             "slug": "data",
             "name": "Data",
-            "postCount": 18267,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 21238,
             "metadata": {
-              "followerCount": 2311,
-              "postCount": 18267,
+              "postCount": 21238,
               "coverImage": {
-                "id": "1*TpSaT4gGaFko9uZaxX6zZQ.png",
-                "originalWidth": 1280,
-                "originalHeight": 720
+                "id": "1*cgcqBdxRpPIzhJ0lbQB81g.png",
+                "originalWidth": 5031,
+                "originalHeight": 3122,
+                "isFeatured": true,
+                "focusPercentX": 49,
+                "focusPercentY": 38
               }
             },
             "type": "Tag"
@@ -2525,8 +2812,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -2542,20 +2827,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "b5805fb61977db41898afb85f30850cc",
+        "contentDigest": "06b4763740b169646c25642abcf5560c",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -2603,23 +2887,20 @@
         "subtitle": "Something that has held my interest recently has been finding better ways to build and test JavaScript applications, particularly those…",
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 4,
+        "recommends": 7,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "graphql",
             "name": "GraphQL",
-            "postCount": 2260,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 2712,
             "metadata": {
-              "followerCount": 2021,
-              "postCount": 2260,
+              "postCount": 2712,
               "coverImage": {
-                "id": "1*49DDRZhUWvVnH-QNHuSUSw.png",
-                "originalWidth": 1000,
-                "originalHeight": 350
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -2627,17 +2908,13 @@
           {
             "slug": "javascript",
             "name": "JavaScript",
-            "postCount": 71025,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 80785,
             "metadata": {
-              "followerCount": 40986,
-              "postCount": 71025,
+              "postCount": 80785,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
                 "isFeatured": true
               }
             },
@@ -2646,17 +2923,13 @@
           {
             "slug": "nodejs",
             "name": "Nodejs",
-            "postCount": 13759,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 15541,
             "metadata": {
-              "followerCount": 12611,
-              "postCount": 13759,
+              "postCount": 15541,
               "coverImage": {
-                "id": "1*S7VjOUzpgIORXUIOa17UKg.jpeg",
-                "originalWidth": 1920,
-                "originalHeight": 1280,
+                "id": "1*fwvt1sbeHiz7HRMz7FIOPQ.jpeg",
+                "originalWidth": 5598,
+                "originalHeight": 3657,
                 "isFeatured": true
               }
             },
@@ -2665,17 +2938,14 @@
           {
             "slug": "apollo",
             "name": "Apollo",
-            "postCount": 557,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 688,
             "metadata": {
-              "followerCount": 228,
-              "postCount": 557,
+              "postCount": 688,
               "coverImage": {
-                "id": "0*ONM2kTwkPVFiEuX1.jpg",
-                "originalWidth": 1282,
-                "originalHeight": 725
+                "id": "1*NRfVdDXUrP5KQU6Vdho6Eg@2x.png",
+                "originalWidth": 2400,
+                "originalHeight": 1260,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -2683,17 +2953,13 @@
           {
             "slug": "node",
             "name": "Node",
-            "postCount": 1078,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 1281,
             "metadata": {
-              "followerCount": 471,
-              "postCount": 1078,
+              "postCount": 1281,
               "coverImage": {
-                "id": "1*BK2RYi2cWJT65CzysUr6iw.png",
-                "originalWidth": 1000,
-                "originalHeight": 300,
+                "id": "1*21aArwV2_zdkduap5yeXPw.png",
+                "originalWidth": 2240,
+                "originalHeight": 1238,
                 "isFeatured": true
               }
             },
@@ -2855,7 +3121,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 7,
+        "totalClapCount": 60,
         "sectionCount": 2,
         "readingList": 0,
         "topics": []
@@ -2934,8 +3200,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": true,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -2951,20 +3215,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "4f3cd1397689a2a8cf9625a8077f2ded",
+        "contentDigest": "fbbba32a0a60e44f9abc85f91daa9591",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -3012,23 +3275,19 @@
         "subtitle": "A couple weeks ago I got this crazy idea to try out a new front end framework that isn’t React. Given the recent hype behind Vue, I figured…",
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 61,
+        "recommends": 62,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "javascript",
             "name": "JavaScript",
-            "postCount": 71025,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 80785,
             "metadata": {
-              "followerCount": 40986,
-              "postCount": 71025,
+              "postCount": 80785,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
                 "isFeatured": true
               }
             },
@@ -3037,17 +3296,14 @@
           {
             "slug": "vuejs",
             "name": "Vuejs",
-            "postCount": 3298,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 4039,
             "metadata": {
-              "followerCount": 3229,
-              "postCount": 3298,
+              "postCount": 4039,
               "coverImage": {
-                "id": "1*9DpPAaEzB417yyGAyzawPA.jpeg",
-                "originalWidth": 1440,
-                "originalHeight": 719
+                "id": "1*mJ-qdNqldpgae2U5oS0qDg.png",
+                "originalWidth": 1266,
+                "originalHeight": 826,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -3055,13 +3311,9 @@
           {
             "slug": "vue",
             "name": "Vue",
-            "postCount": 872,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 1131,
             "metadata": {
-              "followerCount": 793,
-              "postCount": 872,
+              "postCount": 1131,
               "coverImage": {
                 "id": "1*mJ-qdNqldpgae2U5oS0qDg.png",
                 "originalWidth": 1266,
@@ -3074,17 +3326,13 @@
           {
             "slug": "react",
             "name": "React",
-            "postCount": 18803,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 21733,
             "metadata": {
-              "followerCount": 18019,
-              "postCount": 18803,
+              "postCount": 21733,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*HWk-SMDhefnjVZ0uG6rqJQ.png",
+                "originalWidth": 2172,
+                "originalHeight": 1260,
                 "isFeatured": true
               }
             },
@@ -3093,17 +3341,13 @@
           {
             "slug": "reactjs",
             "name": "Reactjs",
-            "postCount": 2890,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 3350,
             "metadata": {
-              "followerCount": 5241,
-              "postCount": 2890,
+              "postCount": 3350,
               "coverImage": {
-                "id": "1*y6C4nSvy2Woe0m7bWEn4BA.png",
-                "originalWidth": 1200,
-                "originalHeight": 630,
+                "id": "1*bqLzlcQEU8e7yWQ3tKSaxQ.png",
+                "originalWidth": 2500,
+                "originalHeight": 1000,
                 "isFeatured": true
               }
             },
@@ -3204,7 +3448,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 327,
+        "totalClapCount": 337,
         "sectionCount": 2,
         "readingList": 0,
         "topics": []
@@ -3264,8 +3508,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": true,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -3281,20 +3523,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "527909382e6477486e4ed6ab01bde37b",
+        "contentDigest": "e03cbb11abd459c33191efba6615f7d0",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -3344,23 +3585,20 @@
         "publishedInCount": 1,
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 48,
+        "recommends": 55,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "react-native",
             "name": "React Native",
-            "postCount": 5370,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 6278,
             "metadata": {
-              "followerCount": 5842,
-              "postCount": 5370,
+              "postCount": 6278,
               "coverImage": {
-                "id": "0*drzwPkY1fCtByc0u",
-                "originalWidth": 1054,
-                "originalHeight": 451
+                "id": "1*yzHQRzAcConi4xImaalEbA.jpeg",
+                "originalWidth": 635,
+                "originalHeight": 502,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -3368,17 +3606,13 @@
           {
             "slug": "javascript",
             "name": "JavaScript",
-            "postCount": 71025,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 80785,
             "metadata": {
-              "followerCount": 40986,
-              "postCount": 71025,
+              "postCount": 80785,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*T3KO2GOY6EhoWUdQw8zuLQ.png",
+                "originalWidth": 521,
+                "originalHeight": 521,
                 "isFeatured": true
               }
             },
@@ -3387,17 +3621,13 @@
           {
             "slug": "react",
             "name": "React",
-            "postCount": 18803,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 21733,
             "metadata": {
-              "followerCount": 18019,
-              "postCount": 18803,
+              "postCount": 21733,
               "coverImage": {
-                "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
-                "originalWidth": 1099,
-                "originalHeight": 478,
+                "id": "1*HWk-SMDhefnjVZ0uG6rqJQ.png",
+                "originalWidth": 2172,
+                "originalHeight": 1260,
                 "isFeatured": true
               }
             },
@@ -3406,19 +3636,15 @@
           {
             "slug": "coffee",
             "name": "Coffee",
-            "postCount": 13424,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 14469,
             "metadata": {
-              "followerCount": 1035,
-              "postCount": 13424,
+              "postCount": 14469,
               "coverImage": {
-                "id": "1*7FyOqBGnXhD2C9h2KcxYkg.jpeg",
-                "originalWidth": 5472,
-                "originalHeight": 3648,
-                "focusPercentX": 45,
-                "focusPercentY": 36
+                "id": "0*ZIe60RUBy1wl4Kr9",
+                "originalWidth": 3686,
+                "originalHeight": 2473,
+                "isFeatured": true,
+                "unsplashPhotoId": "C9WnRj-CZEk"
               }
             },
             "type": "Tag"
@@ -3426,17 +3652,13 @@
           {
             "slug": "mobile-app-development",
             "name": "Mobile App Development",
-            "postCount": 28318,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 29185,
             "metadata": {
-              "followerCount": 10152,
-              "postCount": 28318,
+              "postCount": 29185,
               "coverImage": {
-                "id": "1*iMPfw0qHQdgGzVdtAdJooQ.png",
-                "originalWidth": 3840,
-                "originalHeight": 1440,
+                "id": "1*qLw7bQ7iKrXWLtL2p-lzdw.png",
+                "originalWidth": 1920,
+                "originalHeight": 1080,
                 "isFeatured": true
               }
             },
@@ -3517,7 +3739,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 340,
+        "totalClapCount": 358,
         "sectionCount": 2,
         "readingList": 0,
         "topics": []
@@ -3572,8 +3794,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -3589,20 +3809,19 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "021b88a759d489bead6d910dc0473f92",
+        "contentDigest": "9b824ac0bc39a78220949d77fe00c846",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
@@ -3650,19 +3869,15 @@
         "subtitle": "When I consider my status as a dev, I like to think of myself as a hobbyist first, then a professional.",
         "usersBySocialRecommends": [],
         "noIndex": false,
-        "recommends": 3,
+        "recommends": 2,
         "isBookmarked": false,
         "tags": [
           {
             "slug": "gaming",
             "name": "Gaming",
-            "postCount": 48006,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 51950,
             "metadata": {
-              "followerCount": 520847,
-              "postCount": 48006,
+              "postCount": 51950,
               "coverImage": {
                 "id": "1*t8qglKFRFa_Iasp2Bh4j2Q.jpeg"
               }
@@ -3672,17 +3887,13 @@
           {
             "slug": "development",
             "name": "Development",
-            "postCount": 20828,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 23770,
             "metadata": {
-              "followerCount": 2649,
-              "postCount": 20828,
+              "postCount": 23770,
               "coverImage": {
-                "id": "0*DmNTV9o2hOyJLzO1.jpg",
-                "originalWidth": 570,
-                "originalHeight": 414
+                "id": "1*RPKQq3zYYddwJf9rSeQ4Dg.jpeg",
+                "originalWidth": 1600,
+                "originalHeight": 1085
               }
             },
             "type": "Tag"
@@ -3690,13 +3901,9 @@
           {
             "slug": "technology",
             "name": "Technology",
-            "postCount": 152997,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 169067,
             "metadata": {
-              "followerCount": 1824151,
-              "postCount": 152997,
+              "postCount": 169067,
               "coverImage": {
                 "id": "1*yH2cmH1uhoFpR7HIseOAsw.jpeg"
               }
@@ -3706,13 +3913,9 @@
           {
             "slug": "productivity",
             "name": "Productivity",
-            "postCount": 91080,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 98627,
             "metadata": {
-              "followerCount": 1005844,
-              "postCount": 91080,
+              "postCount": 98627,
               "coverImage": {
                 "id": "1*23EURixTdGzquD9--plvmw.jpeg"
               }
@@ -3722,17 +3925,14 @@
           {
             "slug": "ramblings",
             "name": "Ramblings",
-            "postCount": 908,
-            "virtuals": {
-              "isFollowing": false
-            },
+            "postCount": 944,
             "metadata": {
-              "followerCount": 0,
-              "postCount": 908,
+              "postCount": 944,
               "coverImage": {
-                "id": "0*iH0KWoR6Aa_e6KQM",
-                "originalWidth": 2372,
-                "originalHeight": 1582
+                "id": "1*s6IPutabqVXZRAbQR2egEQ.jpeg",
+                "originalWidth": 3024,
+                "originalHeight": 4032,
+                "isFeatured": true
               }
             },
             "type": "Tag"
@@ -3807,7 +4007,7 @@
         "isLockedPreviewOnly": false,
         "takeoverId": "",
         "metaDescription": "",
-        "totalClapCount": 61,
+        "totalClapCount": 60,
         "sectionCount": 1,
         "readingList": 0,
         "topics": []
@@ -3884,8 +4084,6 @@
       "migrationId": "",
       "notifyFollowers": true,
       "notifyTwitter": false,
-      "isSponsored": false,
-      "isRequestToPubDisabled": false,
       "notifyFacebook": false,
       "responseHiddenOnParentPostAt": 0,
       "isSeries": false,
@@ -3901,23 +4099,340 @@
       "hightowerMinimumGuaranteeStartsAt": 0,
       "hightowerMinimumGuaranteeEndsAt": 0,
       "featureLockRequestAcceptedAt": 0,
-      "featureLockRequestMinimumGuaranteeAmount": 0,
-      "isElevate": false,
       "mongerRequestType": 1,
       "layerCake": 0,
       "socialTitle": "",
       "socialDek": "",
       "editorialPreviewTitle": "",
       "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
       "type": "Post",
       "parent": "__SOURCE__",
       "children": [],
       "internal": {
         "type": "MediumPost",
-        "contentDigest": "08cfa01a109f0285c3531ec74e67435e",
+        "contentDigest": "c6ad2b7db9df350a2dae5b60a6dab32a",
         "owner": "gatsby-source-medium"
       },
       "author___NODE": "2467058898a1"
+    },
+    "2541ed02c698": {
+      "id": "2541ed02c698",
+      "name": "Open GraphQL",
+      "slug": "open-graphql",
+      "tags": [
+        "GRAPHQL",
+        "JAVASCRIPT",
+        "REACT",
+        "REACT NATIVE"
+      ],
+      "creatorId": "695782484bda",
+      "description": "Anything & Everything GraphQL",
+      "shortDescription": "Anything & Everything GraphQL",
+      "image": {
+        "imageId": "1*fqAjaZY2q6H84e_Q-1ot8g.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 2000,
+        "originalHeight": 2000,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "metadata": {
+        "followerCount": 1184,
+        "activeAt": "2018-12-10"
+      },
+      "virtuals": {
+        "permissions": {
+          "canPublish": false,
+          "canPublishAll": false,
+          "canRepublish": false,
+          "canRemove": false,
+          "canManageAll": false,
+          "canSubmit": false,
+          "canEditPosts": false,
+          "canAddWriters": false,
+          "canViewStats": false,
+          "canSendNewsletter": false,
+          "canViewLockedPosts": false,
+          "canViewCloaked": false,
+          "canEditOwnPosts": false,
+          "canBeAssignedAuthor": false,
+          "canEnrollInHightower": false,
+          "canLockPostsForMediumMembers": false,
+          "canLockOwnPostsForMediumMembers": false
+        },
+        "isSubscribed": false,
+        "isNewsletterSubscribed": false,
+        "memberOfMembershipPlanId": "",
+        "isEnrolledInHightower": false,
+        "isEligibleForHightower": false
+      },
+      "logo": {
+        "imageId": "1*1BeUKVGJCAm93O8P0gUTjw.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 1200,
+        "originalHeight": 144,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "twitterUsername": "opengql",
+      "publicEmail": "dabit3@gmail.com",
+      "sections": [
+        {
+          "type": 2,
+          "collectionHeaderMetadata": {
+            "title": "Open GraphQL",
+            "description": "A GraphQL publication that is open to anything & everything GraphQL related.",
+            "backgroundImage": {},
+            "logoImage": {
+              "id": "1*fqAjaZY2q6H84e_Q-1ot8g@2x.png",
+              "originalWidth": 2000,
+              "originalHeight": 2000,
+              "alt": "Open GraphQL"
+            },
+            "alignment": 2,
+            "layout": 5
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 6,
+            "number": 10,
+            "postIds": []
+          }
+        }
+      ],
+      "tintColor": "#FFFAFAFA",
+      "lightText": false,
+      "favicon": {
+        "imageId": "",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 0,
+        "originalHeight": 0,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "colorPalette": {
+        "defaultBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FF848585",
+              "point": 0
+            },
+            {
+              "color": "#FF7B7B7B",
+              "point": 0.1
+            },
+            {
+              "color": "#FF717272",
+              "point": 0.2
+            },
+            {
+              "color": "#FF686868",
+              "point": 0.3
+            },
+            {
+              "color": "#FF5E5E5E",
+              "point": 0.4
+            },
+            {
+              "color": "#FF545454",
+              "point": 0.5
+            },
+            {
+              "color": "#FF494A4A",
+              "point": 0.6
+            },
+            {
+              "color": "#FF3F3F3F",
+              "point": 0.7
+            },
+            {
+              "color": "#FF333333",
+              "point": 0.8
+            },
+            {
+              "color": "#FF272727",
+              "point": 0.9
+            },
+            {
+              "color": "#FF1A1A1A",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        },
+        "tintBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FFFAFAFA",
+              "point": 0
+            },
+            {
+              "color": "#FFEAEAEA",
+              "point": 0.1
+            },
+            {
+              "color": "#FFD9D9D9",
+              "point": 0.2
+            },
+            {
+              "color": "#FFC8C8C8",
+              "point": 0.3
+            },
+            {
+              "color": "#FFB7B7B7",
+              "point": 0.4
+            },
+            {
+              "color": "#FFA5A5A6",
+              "point": 0.5
+            },
+            {
+              "color": "#FF929393",
+              "point": 0.6
+            },
+            {
+              "color": "#FF7F8080",
+              "point": 0.7
+            },
+            {
+              "color": "#FF6C6D6D",
+              "point": 0.8
+            },
+            {
+              "color": "#FF575858",
+              "point": 0.9
+            },
+            {
+              "color": "#FF404242",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFAFAFA"
+        },
+        "highlightSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FFF4F2F2",
+              "point": 0
+            },
+            {
+              "color": "#FFF2F0F0",
+              "point": 0.1
+            },
+            {
+              "color": "#FFF0EEEE",
+              "point": 0.2
+            },
+            {
+              "color": "#FFEEECEC",
+              "point": 0.3
+            },
+            {
+              "color": "#FFECEBEA",
+              "point": 0.4
+            },
+            {
+              "color": "#FFEAE9E8",
+              "point": 0.5
+            },
+            {
+              "color": "#FFE8E7E7",
+              "point": 0.6
+            },
+            {
+              "color": "#FFE6E5E5",
+              "point": 0.7
+            },
+            {
+              "color": "#FFE4E3E3",
+              "point": 0.8
+            },
+            {
+              "color": "#FFE2E1E1",
+              "point": 0.9
+            },
+            {
+              "color": "#FFE0DFDF",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        }
+      },
+      "navItems": [
+        {
+          "type": 1,
+          "title": "Apollo",
+          "tagSlug": "apollo",
+          "url": "https://medium.com/open-graphql/tagged/apollo",
+          "source": "tagSlug"
+        },
+        {
+          "type": 1,
+          "title": "Prisma",
+          "tagSlug": "prisma",
+          "url": "https://medium.com/open-graphql/tagged/prisma",
+          "source": "tagSlug"
+        },
+        {
+          "type": 1,
+          "title": "AWS AppSync",
+          "tagSlug": "aws-appsync",
+          "url": "https://medium.com/open-graphql/tagged/aws-appsync",
+          "source": "tagSlug"
+        },
+        {
+          "type": 1,
+          "title": "Hasura",
+          "tagSlug": "hasura",
+          "url": "https://medium.com/open-graphql/tagged/hasura",
+          "source": "tagSlug"
+        }
+      ],
+      "colorBehavior": 2,
+      "instantArticlesState": 0,
+      "acceleratedMobilePagesState": 0,
+      "ampLogo": {
+        "imageId": "",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 0,
+        "originalHeight": 0,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "header": {
+        "title": "Open GraphQL",
+        "description": "A GraphQL publication that is open to anything & everything GraphQL related.",
+        "backgroundImage": {},
+        "logoImage": {
+          "id": "1*fqAjaZY2q6H84e_Q-1ot8g@2x.png",
+          "originalWidth": 2000,
+          "originalHeight": 2000,
+          "alt": "Open GraphQL"
+        },
+        "alignment": 2,
+        "layout": 5
+      },
+      "type": "Collection",
+      "parent": "__SOURCE__",
+      "children": [],
+      "internal": {
+        "type": "MediumCollection",
+        "contentDigest": "d4dba666212ab4711d270717352de552",
+        "owner": "gatsby-source-medium"
+      }
     },
     "336d898217ee": {
       "id": "336d898217ee",
@@ -3944,8 +4459,8 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 470682,
-        "activeAt": "2018-09-04"
+        "followerCount": 513909,
+        "activeAt": "2018-12-11"
       },
       "virtuals": {
         "permissions": {
@@ -4235,7 +4750,7 @@
       "children": [],
       "internal": {
         "type": "MediumCollection",
-        "contentDigest": "bf0ee90d31f08938d048a0f6a8997802",
+        "contentDigest": "dddce52e335f478b610c256ec69bd270",
         "owner": "gatsby-source-medium"
       }
     },
@@ -4264,8 +4779,8 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 367451,
-        "activeAt": "2018-09-04"
+        "followerCount": 405802,
+        "activeAt": "2018-12-11"
       },
       "virtuals": {
         "permissions": {
@@ -4294,7 +4809,7 @@
         "isEligibleForHightower": false
       },
       "logo": {
-        "imageId": "1*1HcGNZYjo78mH0faO3BnaQ.png",
+        "imageId": "1*Ay2PLDSfLGF5nvuGkR4pjw.png",
         "filter": "",
         "backgroundSize": "",
         "originalWidth": 3600,
@@ -4305,7 +4820,7 @@
       },
       "twitterUsername": "hackernoon",
       "facebookPageName": "hackernoon",
-      "publicEmail": "stories@amipublications.com",
+      "publicEmail": "stories@hackernoon.com",
       "collectionMastheadId": "628349c2609a",
       "domain": "hackernoon.com",
       "sections": [
@@ -4314,13 +4829,2264 @@
           "collectionHeaderMetadata": {
             "backgroundImage": {},
             "logoImage": {
-              "id": "1*1HcGNZYjo78mH0faO3BnaQ@2x.png",
+              "id": "1*Ay2PLDSfLGF5nvuGkR4pjw@2x.png",
               "originalWidth": 3600,
               "originalHeight": 432,
               "alt": "Hacker Noon"
             },
             "alignment": 2,
             "layout": 5
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 1,
+            "number": 2,
+            "postIds": [
+              "441a02902d9b",
+              "323edf855c16"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "9073ba216f4",
+              "d25104f2cdee",
+              "e1aee29ebfea"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "11dc203890b",
+              "8067ec9dee65",
+              "bb282204af9c"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 5,
+            "number": 2,
+            "postIds": [
+              "4cc9f5c27c4f",
+              "4ea36971490a"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "60e1d954e7c9",
+              "e6ea34ce1555",
+              "71343b829e97",
+              "4e5c582b65cc",
+              "60e1d954e7c9",
+              "81f392c728e3",
+              "f63b83a157af"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 2,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "86abe7575ed0",
+              "e59d5ec6a030",
+              "c0366c792c0f",
+              "b1c8bf56aeb9",
+              "c300ca16d802",
+              "e615fdbf8d60",
+              "85da96b55eef"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "dd39482fb67c",
+              "d3b87cc98be1",
+              "825d9ad690bd"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "d5c6b5545ade",
+              "151996345af2",
+              "49885c46e37a",
+              "b7fb42357d43",
+              "7e4075ff7b36"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "8f09bf43a87b",
+              "899f7ac58abb",
+              "e51ded6e444a"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "70d87de525b6",
+              "8b0644fbbe6d",
+              "82c1372879d",
+              "b4232ac8f351",
+              "d9b9e6ad9836",
+              "42ae826a63ab"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "61d0bbef9404",
+              "b00e1702a28a",
+              "6d8a09605bcf"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 6,
+            "postIds": [
+              "ce819814925d",
+              "63b760385fea",
+              "895321b1af84",
+              "37729432d529",
+              "67120a838887",
+              "88069314fb3d"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "6f802e70271d",
+              "dfbb751318f8"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "d96ef9fc2f18",
+              "32a5b52838be",
+              "531eebbc6b27",
+              "21a7bb21b57f",
+              "8b394068cda7"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 2,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "625d3416807b",
+              "1ddc1daff83e",
+              "bc8d1484600b",
+              "dc535d82559d",
+              "66ef2f4e6142",
+              "5b17943c174c",
+              "8179e2c35113"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "18a7325bec6a",
+              "23ac3e8e345",
+              "4d0a43814c02",
+              "f06a7ffb7f3c",
+              "ce9066930ab6",
+              "b5c0f09fbb93",
+              "e354b4d24831"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "in local news, the Vail Daily reports:",
+            "promoId": "8a7a6f82b0f9"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "6738f54216be",
+              "9d942338d848",
+              "a04b2d351754",
+              "bb7f7924676c",
+              "20289a01af37",
+              "95f33d3534c9",
+              "909bead2d2c5"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "e744d27452b4",
+              "9863c3b91ad0",
+              "17e27dc05f85"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "d2cea816035b",
+              "823cf1099b7c",
+              "d0d75c14ebb1"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "3a1a5048e781",
+              "ee86a09e04e5",
+              "5e8bdd5a9f2f"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "e9d7a03ecca8",
+              "849dcd8da554",
+              "370ab230a1d5"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "the Hacker Noon equity crowdfund is up to $524k from 404 investors in 8 days",
+            "promoId": "20a91d2248d2"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "250a81b2ac42",
+              "1d2c60573ec4"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "f780d516f029",
+              "64ac01cd257a"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "201402f77873",
+              "fe1b0e55155b",
+              "38b1ec5b1b15",
+              "68da3199fd64",
+              "368e966f3243",
+              "6d51d2790388",
+              "e905da4b6c5"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "ad10e0eef2b9",
+              "cc4b12d8287a",
+              "52e14367c12f",
+              "f666206233f5",
+              "b16ad2de9905",
+              "ff4a53681ff7"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "d796d1f6b352",
+              "cb0bbf211864",
+              "46fd12b9cd50"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "98b63138b193",
+              "3f4624b972e4"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "c7ec917258c",
+              "7b55ddb7cb2e",
+              "ee5aa2b779b2"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "b49541c77afe",
+              "68d849a7e3b2",
+              "462686e9e77f",
+              "4809fe8ca966",
+              "3dfdf9a0bc66",
+              "b1c0c3cb65c3"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "Hacker Noon is raising funds for the first time. Via equity crowdfunding! ",
+            "promoId": "9f269457cf13"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "8efc9345c188",
+              "ff4a53681ff7"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "af8d7a2d1267",
+              "f63b83a157af",
+              "9194c6d4d588"
+            ]
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "Hacker Noon is raising funds for the first time. Via equity crowdfunding! ",
+            "promoId": "5e83652beb77"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "74a87a80c253",
+              "7d4bbf7f4bd9"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "3609d85804b5",
+              "22ad9d1f63b7",
+              "45cefb28f377",
+              "c504f4095303",
+              "c710cd1c696",
+              "3fd3fb41d288",
+              "66a2058c8b43"
+            ]
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "9075b18d66ee"
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "823dd78f68df"
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "94095c0b00ad"
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "87c4393372cf"
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "3d6a059f2d9d"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 3,
+            "number": 2,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 3,
+            "number": 4,
+            "postIds": [
+              "21ddfd4f8b1f",
+              "b9d449584618",
+              "e8930b2ab1e9",
+              "dac4157eee1c"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "77da7c52383",
+              "3609d85804b5",
+              "408ca62fd8dd",
+              "96b1595096fa",
+              "2eb0be3000b6",
+              "d1fed19eb74c",
+              "a455173d69e3"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 2,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "440ee18dcb94",
+              "a8ed3e66bffc",
+              "a9438ea45efe",
+              "3be3d5935cc",
+              "7bfcba9df6df"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "792c0e1a2b6b",
+              "23c12816043"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "c7f698510e2e",
+              "9fc53242d8b7",
+              "8aaaf0a286a3"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "19f392610d67",
+              "cc3b64773b09",
+              "2e9b24fccd9e",
+              "abc24a40d3ff",
+              "a1f5b99b67db",
+              "23c12816043",
+              "39e758df4d0e"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 1,
+            "number": 2,
+            "postIds": [
+              "2d21dfb94482",
+              "379f3fffd586"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "b05a95ef8cde",
+              "33452b2773",
+              "6089f4b7de56",
+              "9ccf31b7e36a",
+              "4079715a5ff8",
+              "5b7a8704749",
+              "fba685120534"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "43f4ae8decec",
+              "af03b78c81bb",
+              "ebf84b9de951"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "a7cbf7c539d1",
+              "b669ae467f92",
+              "c4022e9b6dfc"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "2c00c7a31c24",
+              "fa3465d7ceb",
+              "11a43f215dc1",
+              "1436b441f3f7",
+              "cf5d292ee6a5",
+              "67d633ce8ace",
+              "be97071919f9"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "bdefac3656b7",
+              "85c4d8edd0cf"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "a51e7e5af9c0",
+              "28d5c46e956",
+              "fe3009fd9102"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "36c37e3ed5bb",
+              "6232eeb1c9ca"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "be34e2fdab9",
+              "f5dc5eb5c9c4",
+              "e1686be6f749",
+              "14ae6c7d1f6f",
+              "d35a28f267dd"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "89edc2445313",
+              "346dce6da86e"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "224a988996ce",
+              "5f72cd430001",
+              "76ec3dde5dcb"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "5dafdf25554d",
+              "8f5abc876acc",
+              "e2b2035307f3",
+              "ce4d9c418556",
+              "224a988996ce",
+              "43f4ae8decec",
+              "ce00b023bde0"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "bb5692adf30c",
+              "12ccb679e49d",
+              "cd72c47e7c16"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "a7ef9c2ef982",
+              "d1e0bfb6f2bf",
+              "17dfd2461070",
+              "44322f5c8c62",
+              "c63a0cccd3f8",
+              "753f9ac99d07",
+              "9dce404b75b4"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "bde7e57fbfdc",
+              "1a280159e138"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 2,
+            "number": 4,
+            "postIds": [
+              "128b25bf0159",
+              "15ce51dc445d",
+              "5fdd6e582d42",
+              "2cb0a7961713"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "3f2996841b21",
+              "6343820da70d",
+              "2c8a2b9e4226"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "32a2caec90",
+              "72ee0d7044df",
+              "d2aa456ef67c"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "f80d9d373362",
+              "2d981bfd720f",
+              "92ceaf972713"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "789976db1689",
+              "9017690dfb0a"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 4,
+            "postIds": [
+              "2bb0461bd168",
+              "ba705bfecab",
+              "6891a7f1c5c",
+              "3f2996841b21"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "d45993621876",
+              "77ede3a94d96",
+              "97a7a1e1bf7"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "32a2caec90",
+              "43f4ae8decec",
+              "12970c47f04f",
+              "cbd17a35708a",
+              "81dc8fe4f784",
+              "d6fdb1463918",
+              "adc0d2f45b91"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": [],
+            "sectionHeader": "the latest stories on hacker noon"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "3061032f1fb",
+              "6ac48b04c28a",
+              "e4b26676fbc7",
+              "9359f2e32b4",
+              "e803495b3375",
+              "3e419ae1a439"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "df3bfeb537f6",
+              "e730fc0efe14"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "fd7c30b2047e",
+              "3b17d4679c3b",
+              "4d630380cc30"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "8344ed9440db",
+              "af29111f772",
+              "ef429a77a9c3",
+              "8316f132fae4",
+              "63450be2c0fd",
+              "6a698dac7c04"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "36b2e8e631cd",
+              "bc3f69e15331",
+              "b9ccca61f51e"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "4a3b74cfe496",
+              "b0db0e777f4",
+              "95fcfd4f8da9",
+              "b074377b30dd",
+              "cd300863ecff",
+              "12970c47f04f",
+              "6343820da70d"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "c5ed143af747",
+              "944d5cea2cab",
+              "63311390f8dd",
+              "31588d8670cb",
+              "dcb7966d22e5",
+              "8ef474aa18b8"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "7f3c29158c18",
+              "4434b89b6fa1",
+              "fc3e301cb7c3"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "2a0d4898c41c",
+              "bb0c1364fbc1",
+              "64fcf9b0398a",
+              "92b0f6aba424",
+              "ba200cc289e6",
+              "e0493c9ba780"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "8861760bf5e",
+              "6acc4104d739"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 2,
+            "layout": 3,
+            "number": 2,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "b89363e8ab15",
+              "948d93f7a396",
+              "76079d187989",
+              "35700bce5d9c",
+              "ed7144396a9c",
+              "89ba5da16a7",
+              "689dea43fb7d"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 2,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "c88e4b9b0895",
+              "183c6213156b",
+              "fcb388010395",
+              "8ef474aa18b8",
+              "a2f30667fc8d"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 4,
+            "layout": 4,
+            "number": 3,
+            "postIds": [],
+            "tagSlug": "hackernoon podcast"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": [],
+            "sectionHeader": "More of the latest Hacker Noon stories..."
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 1,
+            "number": 2,
+            "postIds": [
+              "8fdb4169151",
+              "86bf1b612f6f"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 6,
+            "postIds": [
+              "c73bdc847290",
+              "d536c83a204e",
+              "6090a9abe813",
+              "860c3f25f1fb",
+              "1851667c726",
+              "71633e8c663c"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "c0bddd4d4a5",
+              "c2bbb3af160c",
+              "703ca7f3ce93"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "3fdb4f87c6bc",
+              "66e27996410a"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "f6c7fadef51f",
+              "cf61ed85e80b",
+              "62ecb185d2f3",
+              "3e9be64fd61f",
+              "546b30d8dd11"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "5dc6237bf486",
+              "e5ee19ddd6c5",
+              "250a58b50e34"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 6,
+            "postIds": [
+              "8b18fbb8e4f1",
+              "a51e7e5af9c0",
+              "974bc55af261",
+              "263130e1b69e",
+              "66b9aa379ee7",
+              "1488c09891de"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 3,
+            "number": 2,
+            "postIds": [
+              "5c7b69595052",
+              "5a95f0f3319e"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "b93c236e22c6",
+              "d4e6638d1fac",
+              "c713f067b8a2",
+              "c38d92d11213",
+              "58b906ceac00"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "6b7d66393205",
+              "e46a5ae93e41"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "2b512ed0912f",
+              "95ebeb9beb93",
+              "cc08e0b00c2f"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "372e1590b564",
+              "40a25a272c64",
+              "853687daa71b",
+              "3188e0d70ec5",
+              "93f4c307a1c",
+              "83fc7e79bf12",
+              "e648878f48e5"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "d23aa28b6f1",
+              "abed4e307224",
+              "88570ddce7d7"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 4,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "85508310e931",
+              "b8b12399c3f7",
+              "dbf43944ab8a"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "df5d40d2adc4",
+              "2062bebb38c0"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "a5b4a03fd8e0",
+              "620907dbab2c",
+              "cc80408f1809",
+              "d4c218fcb66d",
+              "8888976900e5",
+              "df86650fe55b",
+              "418b6f5a4bdc"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "c34f9f8098d4",
+              "59933d12a3cc",
+              "9addd6da4170"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": [],
+            "sectionHeader": "Latest on Hacker Noon"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 6,
+            "postIds": [
+              "9ed681a03d40",
+              "e2ce00ae9981",
+              "13bdec734912",
+              "d24a91f0a65b",
+              "abed4e307224",
+              "edad8c27844e"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "88f5f8a7ae90",
+              "72545b608ad",
+              "b82febdf8a46"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "117428612f46",
+              "6516903c547f",
+              "3b1407fd7a1d",
+              "add4a335d79a",
+              "3c206e9dd096",
+              "2612e771d5a2"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "862b90dabae5",
+              "79d298f68866",
+              "42dd2f8f99e7"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "3b1407fd7a1d",
+              "1f14d2d17e34"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "81616ac3e89e",
+              "2229a2b3732",
+              "e0073712ea0f"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "5e15a9f599b2",
+              "b3caa22b5ef9",
+              "7d5ec4b8c81b"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 1,
+            "postIds": [
+              "59933d12a3cc"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "88e7456729c9",
+              "8eee77a49f3b",
+              "77f53d63fa78"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "649352e2ae87",
+              "3220bfa5cee1"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "51b4a7354e06",
+              "849ea584e95d",
+              "bdb338011df0",
+              "2a9c152bdefc"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "f48c1e1bb76d",
+              "56cb7a226930"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "8a990ecb82a9",
+              "18a1a624e3b0",
+              "afa412f84e6b"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "649352e2ae87",
+              "e4676986c89c"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "d8232bd0f39b",
+              "a4c8a2db26ad",
+              "be70a760a5f"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "469ba77d6c42",
+              "76045c58ca55",
+              "1825aa517cb0"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 5,
+            "postIds": [
+              "55f1a7cfd596",
+              "db8b79cbc4eb",
+              "3e783b409e52",
+              "3b5c6dc78708"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "5e2d252dbd08",
+              "1c4ce5c33d9e",
+              "4e2f8fbe87b0"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "636ef725cb1c",
+              "352409ad2c0b",
+              "e738b9668e94",
+              "e2636d9c2fd9",
+              "c984b020d186",
+              "9467aac7e05",
+              "6da90ca32189"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 3,
+            "number": 2,
+            "postIds": [
+              "f8a9df5b7758",
+              "ce91d7ab738f"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 7,
+            "number": 7,
+            "postIds": [
+              "f2ecad74a597",
+              "26e6a27b3a0b",
+              "e44aa5373479",
+              "892108fd0d",
+              "2229a2b3732",
+              "7d8d5579a2c3",
+              "f012a989113"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "d63286fdbbac",
+              "820ae76beb95",
+              "f188169e5d3b"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 3,
+            "postIds": [
+              "aae095126cfe",
+              "9ccddba55e54",
+              "ced61f4ac6"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 3,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 7,
+            "number": 7,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 6,
+            "postIds": [
+              "930b1b7e960b",
+              "f6eb7626ff96",
+              "a5b19901056e",
+              "ae537fc1a6d",
+              "a7112b43f016",
+              "f012a989113"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 3,
+            "number": 4,
+            "postIds": [
+              "3065028897a3",
+              "4440235f2bca",
+              "c750f9bf56a0"
+            ]
           }
         },
         {
@@ -4365,8 +7131,8 @@
           "type": 1,
           "postListMetadata": {
             "source": 1,
-            "layout": 5,
-            "number": 2,
+            "layout": 4,
+            "number": 3,
             "postIds": []
           }
         },
@@ -4415,8 +7181,7 @@
               "4e3efed8649b",
               "406c97cb311",
               "a1ac874710a5",
-              "3c3e37f358dc",
-              "e5329313a107"
+              "3c3e37f358dc"
             ]
           }
         },
@@ -4428,8 +7193,7 @@
             "number": 3,
             "postIds": [
               "24ffd53c052b",
-              "88e77d2b39af",
-              "f778555d5a1f"
+              "88e77d2b39af"
             ]
           }
         },
@@ -4521,7 +7285,6 @@
               "c13cc138378a",
               "b0bdfe028dd2",
               "f52088213026",
-              "f778555d5a1f",
               "f93764d64a8c",
               "45004a23e8a7",
               "1332a0877a6a",
@@ -4536,7 +7299,6 @@
             "layout": 4,
             "number": 3,
             "postIds": [
-              "a803d05e5ce3",
               "14379e0e23ad"
             ]
           }
@@ -4556,8 +7318,7 @@
             "number": 3,
             "postIds": [
               "3d38422333b",
-              "1b4d29a0d7b4",
-              "640a254ee38c"
+              "1b4d29a0d7b4"
             ]
           }
         },
@@ -4625,7 +7386,6 @@
               "e5ad483f85f2",
               "bb3bcc4b347f",
               "cc7816ff9cd3",
-              "f49ca6095054",
               "6329696702a6"
             ]
           }
@@ -4754,7 +7514,6 @@
             "postIds": [
               "8efcf6d28322",
               "b1a0733ccc93",
-              "af21a734f45d",
               "2d5eec68f52b"
             ]
           }
@@ -4835,7 +7594,6 @@
             "number": 7,
             "postIds": [
               "f815eb19cd97",
-              "24e916ebb4c4",
               "7a9374cbe12e",
               "36a13723a454",
               "fab973708146",
@@ -5039,7 +7797,6 @@
             "postIds": [
               "b2ce18d5b054",
               "ee39c9b12ac0",
-              "9cc362a1343",
               "cb8c9b016f9d"
             ]
           }
@@ -5311,7 +8068,6 @@
             "postIds": [
               "6144df75fe03",
               "120132be508",
-              "bfdfff86fc5b",
               "9f60e4130b78",
               "6140e1c2a46b",
               "11938fed397b",
@@ -5449,8 +8205,6 @@
             "layout": 4,
             "number": 3,
             "postIds": [
-              "14060d66027b",
-              "582d0b35e2ac",
               "b032e09140f4"
             ]
           }
@@ -5467,7 +8221,6 @@
               "56c2d6689677",
               "95c336f6b747",
               "7915f23339a0",
-              "39fa9955e8cf",
               "2a4dd2a62398"
             ]
           }
@@ -5498,7 +8251,6 @@
             "number": 7,
             "postIds": [
               "59164b1d25c9",
-              "a4f29c718b57",
               "e011c3cda55e",
               "f873664fce5b",
               "651891ebe1e4",
@@ -5545,8 +8297,7 @@
               "f985f1472b9",
               "43fa156719b4",
               "14f7608e743a",
-              "856bbcbd8f49",
-              "16dbbbcfee9"
+              "856bbcbd8f49"
             ]
           }
         },
@@ -5629,7 +8380,6 @@
             "layout": 7,
             "number": 7,
             "postIds": [
-              "e9f9b2d4248b",
               "f73ec1d2c70d",
               "b644dbeb6a21",
               "ce56d591af",
@@ -5792,7 +8542,6 @@
             "number": 3,
             "postIds": [
               "128dff535a08",
-              "14060d66027b",
               "161f03b04149"
             ]
           }
@@ -6071,7 +8820,6 @@
             "postIds": [
               "a33da2d1f5d1",
               "19af3ffef9e0",
-              "5f2c0a0850df",
               "91484ceaf5d5",
               "6b5f836c2b",
               "c06a6b052838",
@@ -6210,7 +8958,6 @@
             "number": 7,
             "postIds": [
               "8398548f27be",
-              "582d0b35e2ac",
               "8a7afd388bbe",
               "d598e266762d",
               "f27bb956eb8c",
@@ -6261,7 +9008,6 @@
               "17ad575230a8",
               "51da93530623",
               "bb8512c70857",
-              "c0b883a7f460",
               "fe7a98c0759"
             ]
           }
@@ -6321,8 +9067,7 @@
               "ef937e919ec2",
               "e23df3d2e4be",
               "480072581f1b",
-              "f1f203e9a4ef",
-              "72c22c75193f"
+              "f1f203e9a4ef"
             ]
           }
         },
@@ -6352,7 +9097,6 @@
             "layout": 3,
             "number": 2,
             "postIds": [
-              "cc8ff4f5199b",
               "8250d69fd079"
             ]
           }
@@ -6461,11 +9205,8 @@
             "layout": 7,
             "number": 7,
             "postIds": [
-              "406445177a80",
               "7cd1123cbdad",
-              "7199b686b6c1",
               "3f9ece85983d",
-              "9901caca4fd5",
               "bebc0700047c"
             ]
           }
@@ -6744,8 +9485,7 @@
             "layout": 4,
             "number": 3,
             "postIds": [
-              "6af7ceb0d8a3",
-              "16f87f17cb4d"
+              "6af7ceb0d8a3"
             ]
           }
         },
@@ -7019,8 +9759,7 @@
             "layout": 3,
             "number": 2,
             "postIds": [
-              "4b2959c03a35",
-              "3b91562c9b3c"
+              "4b2959c03a35"
             ]
           }
         },
@@ -7267,7 +10006,6 @@
             "number": 7,
             "postIds": [
               "97867fc06f2b",
-              "8933fe2ae51c",
               "139c0dcd3245",
               "b85b079ac45f",
               "b80d0f8ae906",
@@ -7365,7 +10103,6 @@
               "bf27e4837151",
               "89170c501e4c",
               "737d2206545a",
-              "13b08b512bcd",
               "a6640ac69325"
             ]
           }
@@ -7447,7 +10184,6 @@
               "21362adba27a",
               "1227aa782d",
               "a004746d2ff5",
-              "f928dbb145eb",
               "95e7256b6854"
             ]
           }
@@ -7471,7 +10207,6 @@
             "layout": 7,
             "number": 7,
             "postIds": [
-              "319ae47117e6",
               "60c5b399100e",
               "4e94c8e7e5c1",
               "afc7edfe3913",
@@ -7487,8 +10222,7 @@
             "layout": 3,
             "number": 2,
             "postIds": [
-              "692c51030342",
-              "eeb07486230b"
+              "692c51030342"
             ]
           }
         },
@@ -7538,7 +10272,6 @@
               "c465669cff48",
               "7b42b1033c4e",
               "8804905db43e",
-              "5d10d72f14d1",
               "e9d5266d13f7",
               "bd361d0086e",
               "55cf2b8e6fa2"
@@ -7672,7 +10405,6 @@
             "number": 7,
             "postIds": [
               "d1ce3ab0f047",
-              "69a6bd2c6842",
               "2332a29e00a7",
               "cf3fac75dcf7",
               "77c6db5ee192",
@@ -7689,8 +10421,7 @@
             "postIds": [
               "3d67a3a8be93",
               "94c890a36c0b",
-              "e541f1387592",
-              "a398a9a029a7"
+              "e541f1387592"
             ]
           }
         },
@@ -7820,7 +10551,6 @@
               "fe49c0372a63",
               "a3aca0a4792b",
               "da4dad30d2f6",
-              "dba1c7d02dea",
               "8c2508eba4aa",
               "e888ad5a13be"
             ]
@@ -7945,8 +10675,7 @@
             "layout": 3,
             "number": 2,
             "postIds": [
-              "88c3cfb6a66b",
-              "d96808b3344"
+              "88c3cfb6a66b"
             ]
           }
         },
@@ -8092,7 +10821,6 @@
             "postIds": [
               "5a936313c6a1",
               "f843c48139d6",
-              "6c5366985026",
               "e73e0289ad86",
               "60235b40bd77",
               "80d6893602fa",
@@ -8242,7 +10970,6 @@
               "b4f590edc8e9",
               "1af2bfcfec78",
               "d9c397b887e4",
-              "505f0b61e53b",
               "e1ddd1791450",
               "b7f7b6a1707d",
               "5e0c3b32b3c7"
@@ -8327,8 +11054,7 @@
             "layout": 3,
             "number": 2,
             "postIds": [
-              "37441c136de7",
-              "608c255b3056"
+              "37441c136de7"
             ]
           }
         },
@@ -8438,7 +11164,6 @@
             "layout": 4,
             "number": 5,
             "postIds": [
-              "dc298154fafd",
               "e5e2fce9ccfa",
               "2dd17119c58a",
               "eca57de7d4a2"
@@ -8496,8 +11221,7 @@
             "number": 3,
             "postIds": [
               "579f9373e24b",
-              "9aa7301e41ac",
-              "dc298154fafd"
+              "9aa7301e41ac"
             ]
           }
         },
@@ -8694,7 +11418,6 @@
             "layout": 4,
             "number": 4,
             "postIds": [
-              "e212e111c675",
               "b2baee8b8a38",
               "1261b6e18d76",
               "846da334f8fc"
@@ -8748,8 +11471,7 @@
               "2c87760a2315",
               "41407a8b1a45",
               "9ac524a2612b",
-              "78938b37092d",
-              "36da9973388e"
+              "78938b37092d"
             ]
           }
         },
@@ -8788,7 +11510,6 @@
             "postIds": [
               "3f93c7fc0390",
               "bd20d3020470",
-              "d0415775efd0",
               "37ddca3e63f5",
               "4663e2c80992",
               "62f3e50cd57f",
@@ -9136,7 +11857,6 @@
             "number": 5,
             "postIds": [
               "1b39d1581d86",
-              "319ae47117e6",
               "d81aae3eb0e3",
               "cef28fed6c50"
             ]
@@ -9712,10 +12432,8 @@
               "b0a7c743c1c1",
               "6b6f64da07e2",
               "1705df5434ca",
-              "ea8773ce8fb0",
               "5e7e7f7d8914",
-              "26582430bf58",
-              "16dbbbcfee9"
+              "26582430bf58"
             ]
           }
         },
@@ -9800,8 +12518,6 @@
               "d9bc85e1d91f",
               "57cf806d34df",
               "d733cc2c48b0",
-              "caf2e2318abb",
-              "b8cd3287f9f0",
               "1628d08aa7dd"
             ]
           }
@@ -9817,7 +12533,6 @@
               "689157d9d64c",
               "afd0d32ab50",
               "3b4bf96e138f",
-              "2c1b96a77cd6",
               "117428612f46",
               "5be456018040"
             ]
@@ -10075,7 +12790,6 @@
             "layout": 2,
             "number": 4,
             "postIds": [
-              "45a076362512",
               "67ebb5fc7ae",
               "3abc7e00148e",
               "be4b3e326387"
@@ -10215,7 +12929,6 @@
             "postIds": [
               "aa56f4fcdc42",
               "c33c16ea5e88",
-              "dedab6afd3f6",
               "119863d5d9f3",
               "806b8ae77fa6",
               "97dbad1ff28c",
@@ -10230,7 +12943,6 @@
             "layout": 2,
             "number": 3,
             "postIds": [
-              "2daf599c8449",
               "3c6116ba30a8",
               "c54ea887598"
             ]
@@ -10459,7 +13171,6 @@
             "number": 7,
             "postIds": [
               "73a93685197a",
-              "b338247eed6a",
               "3f05f6cee400",
               "46408cf09734",
               "d575f70b39a0",
@@ -10533,7 +13244,6 @@
               "1f886fbd3c5c",
               "5597c743cd0a",
               "73caaacfe31b",
-              "cecf30b9068d",
               "58884e95c2bd",
               "11e158b734ee"
             ]
@@ -10732,7 +13442,6 @@
             "layout": 7,
             "number": 7,
             "postIds": [
-              "fa6f28ba0649",
               "a1333072a2e3",
               "f2ffb2810203",
               "b08e9f87052c",
@@ -10935,8 +13644,7 @@
               "bc5752187556",
               "a6b2e2859c13",
               "1fe876bcf5aa",
-              "bdd44746e83a",
-              "b3aeb35ffe31"
+              "bdd44746e83a"
             ]
           }
         },
@@ -11070,7 +13778,6 @@
               "475010b26fb4",
               "e9f0e3ed36a6",
               "5bbebddad96b",
-              "2f4bb021abc4",
               "6a804f334beb",
               "9534818fb217",
               "f59f92fd8dca"
@@ -11162,7 +13869,6 @@
             "layout": 4,
             "number": 2,
             "postIds": [
-              "1f331dd11b1e",
               "87f859f13f75"
             ]
           }
@@ -11198,7 +13904,6 @@
               "c54346cd8ca0",
               "c4d02f27dd3",
               "6926df5af0c7",
-              "5bb0f9d56801",
               "c5c5b86e9458",
               "bdc5aeaf2d07",
               "68bbccf6885c"
@@ -11380,7 +14085,6 @@
             "layout": 7,
             "number": 7,
             "postIds": [
-              "60cd8d2713c1",
               "7acd8ea68157",
               "6d82fad147b9",
               "a73af700aee6",
@@ -11431,7 +14135,6 @@
             "postIds": [
               "6bdfa366b899",
               "38d41aff563e",
-              "b94973c21784",
               "cb3b1fd04a1c",
               "be5c30184e13"
             ]
@@ -12354,7 +15057,6 @@
             "layout": 5,
             "number": 2,
             "postIds": [
-              "a9d7550c157e",
               "cacd04f916b3"
             ]
           }
@@ -12824,7 +15526,6 @@
             "layout": 2,
             "number": 4,
             "postIds": [
-              "dc9adb4c162b",
               "4c772b7c2642",
               "23049d7209af"
             ]
@@ -14332,7 +17033,6 @@
             "number": 4,
             "postIds": [
               "46c17eb955e6",
-              "8bc79eac469d",
               "35e4f9701504",
               "d167302c17f5"
             ]
@@ -14631,8 +17331,7 @@
             "layout": 3,
             "number": 2,
             "postIds": [
-              "b52f2265c596",
-              "2f5669794f79"
+              "b52f2265c596"
             ]
           }
         },
@@ -15528,9 +18227,7 @@
             "source": 3,
             "layout": 2,
             "number": 1,
-            "postIds": [
-              "22673fb56ae8"
-            ]
+            "postIds": []
           }
         },
         {
@@ -16794,7 +19491,6 @@
             "postIds": [
               "360fe56b658",
               "b2c5ffaee997",
-              "1b7bbbc13b13",
               "d31efbb641b4"
             ]
           }
@@ -16849,10 +19545,7 @@
             "source": 3,
             "layout": 4,
             "number": 2,
-            "postIds": [
-              "5ff4c1b1a790",
-              "f1ec1738cf45"
-            ]
+            "postIds": []
           }
         },
         {
@@ -17572,11 +20265,11 @@
       "tintColor": "#FF00FF00",
       "lightText": false,
       "favicon": {
-        "imageId": "1*76XiKOa05Yya6_CdYX8pVg.jpeg",
+        "imageId": "1*k81sEnoQeinlKZ0S1NSTtQ.png",
         "filter": "",
         "backgroundSize": "",
-        "originalWidth": 8346,
-        "originalHeight": 8346,
+        "originalWidth": 338,
+        "originalHeight": 338,
         "strategy": "resample",
         "height": 0,
         "width": 0
@@ -17733,45 +20426,28 @@
       "navItems": [
         {
           "type": 4,
-          "title": "AI ",
-          "url": "https://hackernoon.com/artificial-intelligence/home",
-          "topicId": "cd291aa79e72",
-          "source": "topicId"
-        },
-        {
-          "type": 4,
-          "title": "Latest",
+          "title": "Read Latest",
           "url": "https://hackernoon.com/latest-tech-stories/home",
           "topicId": "ee08869d885a",
           "source": "topicId"
         },
         {
           "type": 4,
-          "title": "Blockchain",
-          "url": "https://hackernoon.com/blockchain/home",
-          "topicId": "ee063c681e1e",
+          "title": "2018",
+          "url": "https://hackernoon.com/2018/home",
+          "topicId": "7464c9e35015",
           "source": "topicId"
         },
         {
-          "type": 1,
-          "title": "Dev",
-          "tagSlug": "software-development",
-          "url": "https://hackernoon.com/tagged/software-development",
-          "source": "tagSlug"
-        },
-        {
           "type": 3,
-          "title": "Dope Tech Jobs",
-          "url": "http://bit.ly/2LLdEDb"
+          "title": "own shares in HackerNoon",
+          "url": "http://bit.ly/HNshares"
         }
       ],
       "colorBehavior": 2,
       "instantArticlesState": 0,
       "acceleratedMobilePagesState": 0,
       "googleAnalyticsId": "UA-65623566-4",
-      "collectionFeatures": [
-        13
-      ],
       "ampLogo": {
         "imageId": "",
         "filter": "",
@@ -17785,7 +20461,7 @@
       "header": {
         "backgroundImage": {},
         "logoImage": {
-          "id": "1*1HcGNZYjo78mH0faO3BnaQ@2x.png",
+          "id": "1*Ay2PLDSfLGF5nvuGkR4pjw@2x.png",
           "originalWidth": 3600,
           "originalHeight": 432,
           "alt": "Hacker Noon"
@@ -17798,7 +20474,7 @@
       "children": [],
       "internal": {
         "type": "MediumCollection",
-        "contentDigest": "71b2d325a77aefe44cb34b100fa7f78c",
+        "contentDigest": "3e6bbf694a0e0bae6c50b7a203d3eb2d",
         "owner": "gatsby-source-medium"
       }
     },
@@ -17827,8 +20503,8 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 4822,
-        "activeAt": "2018-08-17"
+        "followerCount": 5749,
+        "activeAt": "2018-12-11"
       },
       "virtuals": {
         "permissions": {
@@ -17999,7 +20675,7 @@
       "children": [],
       "internal": {
         "type": "MediumCollection",
-        "contentDigest": "deff0a9c1fc36aff20e15712579acc6f",
+        "contentDigest": "2861db1808a91872a0317da1a48512e3",
         "owner": "gatsby-source-medium"
       }
     },
@@ -18086,19 +20762,15 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7f48151dc05f3a6a2821cf6ed2529bf2"
+    "PLUGINS_HASH": "8cd71aa41b653c0b2cfe5b856c57a3ca"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
-      ],
-      "2467058898a1": [
-        "/"
       ]
     },
     "connections": {
-      "MediumUser": [],
       "MediumPost": [
         "/blog/"
       ],
@@ -18114,7 +20786,7 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-f7a": "585/path---blog-f-7-a-05d-bqJHDzJzXFH9Xv2AokXuW6IzXk"
+    "blog-f7a": "499/path---blog-f-7-a-05d-LxKiUtLPkB1JlUoKjC7i9mcxiiY"
   },
   "components": {
     "/Users/ianwilson/ui-workspace/ianwilson.io/.cache/dev-404-page.js": {
@@ -18125,13 +20797,13 @@
       "query": "",
       "componentPath": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/404.js"
     },
-    "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/index.js"
-    },
     "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/blog.js": {
       "query": "query MediumQuery {\n  allMediumPost {\n    edges {\n      node {\n        id\n        title\n        uniqueSlug\n        virtuals {\n          tags {\n            name\n          }\n        }\n        previewContent {\n          subtitle\n          bodyModel {\n            paragraphs {\n              type\n              metadata {\n                id\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  allMediumCollection {\n    edges {\n      node {\n        domain\n        name\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/blog.js"
+    },
+    "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/ianwilson/ui-workspace/ianwilson.io/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
